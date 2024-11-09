@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MOTD - Dark & Calm L4D2 Style</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background: url(https://steamcdn-a.akamaihd.net/steam/apps/550/capsule_616x353.jpg?t=1601578341) no-repeat center center fixed;
+            background-size: cover;
+            color: #c7ccd1; /* Light gray for text readability */
+            padding: 30px;
+        }
+        h1 {
+            font-size: 48px; /* Increased font size for bigger text */
+            font-weight: bold; /* Made the text bolder */
+            color: #0070ff; /* Blue color to match the screenshot */
+            text-align: center;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Slightly stronger shadow */
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #c9d1d9; /* Brighter gray for readability */
+        }
+        a {
+            color: #ff4500; /* Darker orange links */
+            text-decoration: none;
+        }
+        a:hover {
+            color: #ff6a36; /* Slightly lighter orange on hover */
+        }
+        .rules, .section {
+            background-color: rgba(17, 23, 28, 0.9); /* Solid dark background for sections, slightly transparent for visibility */
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #222b32;
+            margin-bottom: 20px;
+            box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.5);
+        }
+        .rules h2, .section h2 {
+            font-size: 24px;
+            color: #7289da; /* Soft blue for section headers */
+            border-bottom: 1px solid #3a4b56;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .rules ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .rules ul li {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: rgba(26, 31, 37, 0.9); /* Solid dark blue background for list items */
+            border-radius: 6px;
+            border: 1px solid #2c3742;
+            color: #d1d8de; /* Light text inside list items */
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #7b848c;
+        }
+        .divider {
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(to right, #3a4b56, #ff4500); /* Dark blue to orange gradient divider */
+            margin: 15px 0;
+        }
+        .pattern {
+            background: radial-gradient(circle at top left, rgba(17, 23, 28, 0.9), transparent 50%), 
+                        radial-gradient(circle at bottom right, rgba(17, 23, 28, 0.9), transparent 50%);
+            background-size: cover;
+            width: 100%;
+            height: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Welcome to Our Server!</h1>
+<div class="divider"></div>
+
+<p style="color: #f0f0f0; font-weight: 900; font-size: 20px; background-color: rgba(30, 30, 30, 0.8); border: 2px solid #cc3300; padding: 10px; border-radius: 8px;">
+    Please follow these simple guidelines to ensure everyone has a peaceful and enjoyable experience:
+</p>
+<div class="rules">
+    <h2>Rules & Guidelines:</h2>
+    <ul>
+        <li>No Speed Running: Stick with your team for the best experience!</li>
+        <li>No Trolling or Griefing: Be respectful to fellow players.</li>
+        <li>No Lagging the Server: Avoid actions that could slow down the server.</li>
+        <li>No Voice Line Spamming: Keep the atmosphere calm and orderly.</li>
+        <li>No Insults or Slurs: Offensive language will not be tolerated.</li>
+        <li>English Only: Communication is key; therefore, please keep it in English.</li>
+        <li>Go IDLE if AFK: Use idle mode if you need to step away.</li>
+        <li>Ask Before Leaving Safe Rooms/Starting Events: Ensure the team is ready before acting!</li>
+        <li>Communicate: Keep the team coordinated using chat or voice comms.</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Character Swapping:</h2>
+    <p>Want to change your character in-game? Type <strong>!CharacterName</strong> in chat (e.g., <strong>!Louis</strong>).</p>
+</div>
+
+<div class="section">
+    <h2>Credits:</h2>
+    <p>Created by: <strong><a href="https://steamcommunity.com/profiles/76561198377002114/" target="_blank">GoldHound</a></strong> & 
+    <strong><a href="https://steamcommunity.com/id/TheGuyThatJusts" target="_blank">ThatGuyThatJusts</a></strong></p>
+</div>
+
+<div class="footer">
+    <p>Server Version 1.0.1 | All Rights Reserved</p>
+</div>
+
+<div class="pattern"></div>
+</body>
+</html>
